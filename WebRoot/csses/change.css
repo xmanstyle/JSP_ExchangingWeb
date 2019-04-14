@@ -1,0 +1,32 @@
+body{
+	background-image:url(../imgs/login.jpg);
+}
+#mainDiv{
+	dispaly:inline;
+	width:50px;
+	height:30px;
+	padding:5px;
+	border:2px solid white;
+}
+#mainDiv a{
+	color:red;
+	font-size:18pt;
+}
+table{
+	width:360px;
+	height:400px;
+	font-size:16pt;
+	color:white;
+	align:center;
+}
+table tr{
+	text-align:center;
+}
+#signForm{
+	margin-top:160px;
+}
+#signBt{
+	background-color:red;
+	color:white;
+	font-size:12pt;
+}

@@ -1,0 +1,22 @@
+body{
+	background-image:url(../imgs/login.jpg);
+}
+#form1{
+	margin-top:250px;
+}
+table{
+	width:300px;
+	height:180px;
+	font-size:16pt;
+	color:white;
+	align:center;
+}
+#loginbt{
+	background-color:red;
+	color:white;
+	font-size:12pt;
+}
+#signlink{
+	font-size:11pt;
+	color:red;
+}

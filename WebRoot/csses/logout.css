@@ -1,0 +1,13 @@
+body{
+	background-image:url(../imgs/bye.jpg);
+}
+#center{
+	text-align:center;
+	align:center;
+}
+#showClose{
+	color:yellow;
+	font-size:20pt;
+	margin-left:20px;
+	margin-top:180px;
+}

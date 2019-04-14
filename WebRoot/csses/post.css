@@ -1,0 +1,63 @@
+body{
+	background-color:#4e4e4e;
+}
+#mainDiv{
+	dispaly:inline;
+	width:50px;
+	height:30px;
+	padding:5px;
+	border:2px solid white;
+}
+#mainDiv a{
+	color:red;
+	font-size:18pt;
+}
+#container{
+	background-color:#8B4646;
+	border:1px solid red;
+	padding:10px;
+	margin-top:60px;
+	width:50%;
+	height:60%;
+}
+#title{
+	margin-top:20px;
+	border:1px solid red;
+	font-size:25pt;
+	width:80%;
+	color:white;
+}
+#formdiv{
+	margin-top:30px;
+	border:1px solid red;
+	width:80%;
+	height:60%;
+	align:center;
+}
+table{
+	width:90%;
+	height:90%;
+	padding:5px;
+	align:center;
+	margin-top:20px;
+	border:2px solid white;
+	font-size:16pt;
+	color:white;
+}
+table tr{
+	text-align:center;
+}
+table td{
+	text-align:center;
+	margin:5px;
+	align:center;
+}
+#posttable tr{
+	align:center;
+	margin:5px;
+}
+.redBt{
+	background-color:red;
+	color:white;
+}
+

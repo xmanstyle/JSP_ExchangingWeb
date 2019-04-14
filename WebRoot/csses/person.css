@@ -1,0 +1,27 @@
+body{
+	background-image:url(../imgs/login.jpg);
+}
+#mainDiv{
+	dispaly:inline;
+	width:50px;
+	height:30px;
+	padding:5px;
+	border:2px solid white;
+}
+#mainDiv a{
+	color:red;
+	font-size:18pt;
+}
+#center{
+	margin-top:100px;
+	align:center;
+}
+table{
+	font-size:15pt;
+	width:360px;
+	height:400px;
+	color:white;
+}
+table tr{
+	text-align:center;
+}

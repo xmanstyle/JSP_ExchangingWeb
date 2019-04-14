@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app version="3.0"
+    xmlns="http://java.sun.com/xml/ns/javaee"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_3_0.xsd">
+  <servlet>
+    <servlet-name>JumpToSign</servlet-name>
+    <servlet-class>com.xiaoming.control.JumpToSign</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>HandleSign</servlet-name>
+    <servlet-class>com.xiaoming.control.HandleSign</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>HandleLogin</servlet-name>
+    <servlet-class>com.xiaoming.control.HandleLogin</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>HandleIntoMain</servlet-name>
+    <servlet-class>com.xiaoming.control.HandleIntoMain</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>HandlePost</servlet-name>
+    <servlet-class>com.xiaoming.control.HandlePost</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>HandlePostContent</servlet-name>
+    <servlet-class>com.xiaoming.control.HandlePostContent</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>HandleToPerson</servlet-name>
+    <servlet-class>com.xiaoming.control.HandleToPerson</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>HandleToChangeInfo</servlet-name>
+    <servlet-class>com.xiaoming.control.HandleToChangeInfo</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>HandleToMyPost</servlet-name>
+    <servlet-class>com.xiaoming.control.HandleToMyPost</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>HandleChangePost</servlet-name>
+    <servlet-class>com.xiaoming.control.HandleChangePost</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>HandleLogout</servlet-name>
+    <servlet-class>com.xiaoming.control.HandleLogout</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>HandleAccess</servlet-name>
+    <servlet-class>com.xiaoming.control.HandleAccess</servlet-class>
+  </servlet>
+
+
+
+
+
+
+
+
+
+
+
+
+  <servlet-mapping>
+    <servlet-name>JumpToSign</servlet-name>
+    <url-pattern>/servlet/JumpToSign</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>HandleSign</servlet-name>
+    <url-pattern>/servlet/HandleSign</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>HandleLogin</servlet-name>
+    <url-pattern>/servlet/HandleLogin</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>HandleIntoMain</servlet-name>
+    <url-pattern>/servlet/HandleIntoMain</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>HandlePost</servlet-name>
+    <url-pattern>/servlet/HandlePost</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>HandlePostContent</servlet-name>
+    <url-pattern>/servlet/HandlePostContent</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>HandleToPerson</servlet-name>
+    <url-pattern>/servlet/HandleToPerson</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>HandleToChangeInfo</servlet-name>
+    <url-pattern>/servlet/HandleToChangeInfo</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>HandleToMyPost</servlet-name>
+    <url-pattern>/servlet/HandleToMyPost</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>HandleChangePost</servlet-name>
+    <url-pattern>/servlet/HandleChangePost</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>HandleLogout</servlet-name>
+    <url-pattern>/servlet/HandleLogout</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>HandleAccess</servlet-name>
+    <url-pattern>/servlet/HandleAccess</url-pattern>
+  </servlet-mapping>
+
+</web-app>

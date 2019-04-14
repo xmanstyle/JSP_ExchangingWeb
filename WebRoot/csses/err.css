@@ -1,0 +1,12 @@
+body{
+	background-image:url(../imgs/err.jpg);
+}
+#errDiv{
+	margin-top:200px;
+	color:red;
+	font-size:25pt;
+}
+a{
+	color:white;
+	font-size:20pt;
+}
